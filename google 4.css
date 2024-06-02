@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #060606;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+form{
+    background: white;
+    width: 600px;
+    height: 55px;
+    display: flex;
+
+}
+
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+form button{
+    background: tomato;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
